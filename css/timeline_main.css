@@ -1,0 +1,153 @@
+body {
+  background: #A1A2A2;
+	color: #E3E3E3;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*  Menu Button */
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #484B4C;
+}
+
+.navbar .navbar-toggle {
+	color: #484B4C;
+	border-color: #484B4C;
+}
+
+/*  Navbar */
+.navbar, .navbar .navbar-nav>li.active>a{
+	background-color: transparent;
+	border: none;
+	background-color: #E3E3E3;
+	color: #484B4C;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Hover */
+.btn:hover, .btn:focus,
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li.active>a:hover {
+	background-color: #484B4C;
+	color: #E3E3E3;
+	font-weight: bold;
+	border: none;
+}
+
+/*  Timeline */
+.timeline-body {
+	margin-bottom: -20px; /* Corrects gap btw .timeline-body and footer */
+}
+
+.timeline-header {
+	background-color: white;
+	line-height: 1.25em;
+	opacity: .5; 
+	padding: 4.5em 1.5em 1.5em 1.5em;
+	width: 100%;
+	border: none;
+	margin: 0px;
+}
+
+iframe {
+	margin: 0px;
+	height: 700px;
+	width: 100%;
+}
+
+/*  All Content */
+.lt-gray-text {
+	color: #E3E3E3;
+}
+
+.md-gray-text {
+	color: #828383;
+}
+
+.dk-gray-text {
+  color: #484B4C;
+	font-weight: bold;
+}
+
+a {
+	color: inherit;
+}
+
+h1 {
+  font-family: "Nixie One", cursive;
+  font-size: 10vmin;
+	line-height: 1.25em;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5vmin;
+	line-height: 1.5em;
+	padding: 0;
+	margin: 0;
+}
+
+h3 {
+	text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vmin;
+	line-height: 1.25em;
+	padding: 0;
+	margin: .5em 0 0 0;
+}
+
+h4 {
+	font-family: "Nixie One", cursive;
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: center;
+	vertical-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 8px;
+	line-height: 1.5em;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+  background-color: #484B4C;
+	height: relative;
+	width: 100%;
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	position: bottom;
+}
+
+.btn-primary {
+	background-color: #484B4C;
+	color: #E3E3E3;
+	border: none;
+	margin: 15px;
+}
+
+.panel-default {
+	border: none;
+}
+
+.panel-default>.panel-heading {
+	color: #828383;
+}
+
+.panel-heading>#headingAction {
+	background-color: #484B4C;
+	color: #E3E3E3;
+	border: none;
+	margin: 15px;
+}
